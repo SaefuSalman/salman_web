@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'siAnton';
+    src: url(/static/fonts/Anton-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'FontIndie';
+    src: url(/static/fonts/IndieFlower-Regular.ttf) format('truetype');
+}
+
+body{
+    font-family: 'siAnton', sans-serif;
+    background-color: #132f39;
+    box-sizing: border-box;
+}
+
+.navbar-brand{
+    margin-left: 50px;
+}
+
+.navbar-nav{
+    margin-right: 80px;
+}
+
+.container{
+    text-align: center;
+    padding-top: 150px;
+}
+span{
+    font-size: 121px;
+    display: block;
+    color: #Fdfdfd;
+    font-family: 'FontIndie', sans-serif;
+}
+
+.text-gradient{
+    background-clip: text;
+    background-image: linear-gradient(to bottom, #Fdfdfd, #132f39);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.container .Home p{
+    color: #Fdfdfd;
+    font-size: 20px;
+}
+
+.container .Home .text-atas{
+    margin-top: 100px;
+}
+
+.card-back-end{
+    margin-top: 300px;
+    background-color: #Fdfdfd;
+    border-radius: 50px;
+}
+
+.framework{
+    margin-right: 40px;
+    font-size: 15px;
+    margin-top: 40px;
+}
+
+.back-end{
+    margin-right: 40px;
+    font-size: 40px;
+}
+
+.card-front-end{
+    background-color: #B7E0FF;
+    margin-top: 100px;
+    border-radius: 50px;
+}
+
+.framework-front-end {
+    /* margin-top: 20px; */
+    padding-top: 40px;
+    margin-right: 40px;
+}
+
+.front-end{
+    margin-right: 40px;
+    font-size: 40px;
+}
+
+.bg-react{
+    border-radius: 40px;
+}
+
+.judul-dua{
+    font-size: 121px;
+    color: #Fdfdfd;
+}
+
+.judul-tiga{
+    font-size: 121px;
+    background-clip: text;
+    background-image: linear-gradient(to bottom, #Fdfdfd, #132f39);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+footer{
+    margin-top: 300px;
+}
+
+.spotify{
+    background-color: #Fdfdfd;
+    border-radius: 100px;
+    width: 500px;
+    height: 100px;
+}
+
+.footer-akhir{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+/* svg{
+    display: absolute;
+    left: 100px;
+    top: 100px;
+} */
